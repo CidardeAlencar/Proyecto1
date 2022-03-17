@@ -4,7 +4,7 @@
     height: 600px;
     border: 10px solid #000;
     position: relative;
-    left: -180px;
+    left: 700px;
     top: -100px;
     margin: 10px auto;
     overflow: hidden;
@@ -13,7 +13,7 @@
 }
 
 /*oojos*/
-.ojos {
+.ojitos{
     position: absolute;
     left: 60px;
     top: 80px;
@@ -21,7 +21,7 @@
     z-index: 20px;
 }
 
-.ojo{
+.ojotes{
     background: rgba(59, 143, 212, 0.856);
     position: relative;
     border: 10px solid rgb(214, 206, 206);
@@ -31,10 +31,10 @@
     display: inline-block;
     border-radius: 50%;
 }
-.nariz{
+.naza{
 
-width: 130px;
-height:300px;
+width: 40px;
+height:30px;
 margin: 30px auto;
 border-bottom: 240px solid rgb(102, 100, 100);
 
