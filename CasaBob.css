@@ -12,7 +12,7 @@
 .puerta{
     width: 300px;
     height: 600px; /*alto de ovalo*/
-    left: 450px;
+    left: 800px;
     top: 2200px;
     border-radius:45%;
     position: absolute;
@@ -110,27 +110,27 @@
     position: relative;
     color: #4c8d15cf;
     box-shadow:
-        -1300px -990px 0 0 currentColor,
-        550px 365px 0 0 currentColor;
+        450px 0 0 0 currentColor,
+        550px 0 0 0 currentColor;
+    top: -80px; left: -220px;
 }
 .hoja::before{
     content: "";
     position: absolute;
-    left: 400px;
-    top: 100px;
+    left: 600px;
+    top: -300px;
     width: 360px;
     height: 120px;
     border-bottom: solid 120px currentColor;
     border-radius: 0 0 100% 0;
     transform: rotate(-35deg);
     transform-origin: right 10px;
-
 }
 .hoja:after{
     content: "";
    position: absolute;
-   left: 310px;
-   top: 368px;
+   left: 200px;
+   top: 60px;
    width: 400px;
    height: 120px;
    border-bottom: solid 110px currentColor;
@@ -145,32 +145,32 @@
     position: absolute;
     color: #828d15cf;
     box-shadow:
-        450px 365px 0 0 currentColor,
-        550px 365px 0 0 currentColor;
+        400px 0 0 0 currentColor,
+        650px 0 0 0 currentColor;
+    top: -20px; left: -220px;
 }
 .hoja2::before{
     content: "";
     position: absolute;
     left: 595px;
-    top: 130px;
+    top: -360px;
     width: 250px;
     height: 220px;
     border-bottom: solid 100px currentColor;
     border-radius: 0 0 250% 0;
     transform: rotate(-15deg);
     transform-origin: right 10px;
-
 }
 .hoja2:after{
     content: "";
    position: absolute;
    left: 335px;
-   top: 310px;
+   top: -130px;
    width: 255px;
    height: 120px;
    border-bottom: solid 100px currentColor;
    border-radius: 0 0 0 100%;
-   transform: rotate(25deg);
+   transform: rotate(45deg);
    transform-origin: right 20px;
 }
 .hoja3{
@@ -182,29 +182,29 @@
     box-shadow:
         450px 365px 0 0 currentColor,
         550px 365px 0 0 currentColor;
+    top: -350px; left: -180px;
 }
 .hoja3::before{
     content: "";
     position: absolute;
-    left: 135px;
-    top: 20px;
+    left: 250px;
+    top: -100px;
     width: 430px;
     height: 120px;
     border-bottom: solid 80px currentColor;
     border-radius: 0 0 250% 0;
     transform: rotate(-65deg);
     transform-origin: right 10px;
-
 }
 .hoja3:after{
     content: "";
    position: absolute;
-   left: 215px;
-   top: 340px;
+   left: 250px;
+   top: 280px;
    width: 355px;
    height: 120px;
    border-bottom: solid 60px currentColor;
    border-radius: 0 0 0 100%;
-   transform: rotate(25deg);
+   transform: rotate(65deg);
    transform-origin: right 20px;
 }
