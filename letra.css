@@ -2,7 +2,7 @@
     border: 10px solid rgb(255, 238, 0);
     border-radius: 25px;
     padding: 5px 25px;
-    bottom: 10px; left: 35%;
+    top: 10%; left: 50%;
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
     font-size: 180px;
@@ -12,6 +12,6 @@
 
 @keyframes textm{
     0%{transform: scale(0.5);}
-    50%{transform: scale(1);}
+    50%{transform: scale(3);}
     100%{transform: scale(0.5);}
 }
