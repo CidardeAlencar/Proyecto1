@@ -1,0 +1,124 @@
+html{
+    background: linear-gradient(-20deg,#000a5f,#090058,#52c2ca,#f8eb2c,#1c52e6);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 2.5s ease-out infinite;
+}
+/* llave de cambio para el grado de color*/
+@keyframes cambiar{
+    0%{background-position: 0 100%;}
+    50%{background-position: 50% 80%;}
+    100%{background-position: 0 100%;}
+}
+body{
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.burbuja{
+    width: 80px; height: 80px;
+    bottom: -150px; left: 5%;
+    border-radius: 50%;
+    background: #a0ecff;
+    position: absolute;
+    animation: burbu 2.5s linear infinite;
+}
+.burbuja1{
+    width: 50px; height: 50px;
+    bottom: -170px; left: 15%;
+    border-radius: 50%;
+    background: #b4f0ff;
+    position: absolute;
+    animation: burbu 2s linear infinite;
+    animation-delay: 1s;
+}
+.burbuja2{
+    width: 90px; height: 90px;
+    bottom: -160px; left: 25%;
+    border-radius: 50%;
+    background: #b4f0ff;
+    position: absolute;
+    animation: burbu2 2s linear infinite;
+    animation-delay: 3s;
+}
+.burbuja3{
+    width: 100px; height: 100px;
+    bottom: -195px; left: 35%;
+    border-radius: 50%;
+    background: #b4f0ff;
+    position: absolute;
+    animation: burbu 2s linear infinite;
+    animation-delay: 1s;
+}
+.burbuja4{
+    width: 35px; height: 35px;
+    bottom: -200px; left: 45%;
+    border-radius: 50%;
+    background: #b4f0ff;
+    position: absolute;
+    animation: burbu3 2s linear infinite;
+    animation-delay: 5s;
+}
+.burbuja5{
+    width: 80px; height: 80px;
+    bottom: -180px; left: 55%;
+    border-radius: 50%;
+    background: #b4f0ff;
+    position: absolute;
+    animation: burbu 2s linear infinite;
+    animation-delay: 3s;
+}
+.burbuja6{
+    width: 90px; height: 90px;
+    bottom: -150px; left: 65%;
+    border-radius: 50%;
+    background: #b4f0ff;
+    position: absolute;
+    animation: burbu3 2s linear infinite;
+    animation-delay: 1s;
+}
+.burbuja7{
+    width: 120px; height: 120px;
+    bottom: -165px; left: 75%;
+    border-radius: 50%;
+    background: #b4f0ff;
+    position: absolute;
+    animation: burbu 2s linear infinite;
+    animation-delay: 3s;
+}
+.burbuja8{
+    width: 100px; height: 100px;
+    bottom: -170px; left: 85%;
+    border-radius: 50%;
+    background: #b4f0ff;
+    position: absolute;
+    animation: burbu2 2s linear infinite;
+    animation-delay: 5s;
+}
+.burbuja9{
+    width: 65px; height: 65px;
+    bottom: -110px; left: 95%;
+    border-radius: 50%;
+    background: #b4f0ff;
+    position: absolute;
+    animation: burbu 2s linear infinite;
+    animation-delay: 3s;
+}
+/* Llaves de cambio para la transicion de las burbujas */
+@keyframes burbu {
+    0%{bottom: 0; opacity: 0;}
+    50%{opacity: .5;}
+    100%{bottom: 90vh; opacity: 0;}
+}
+@keyframes burbu2 {
+    0%{bottom: 0; opacity: 0;}
+    50%{opacity: .6;}
+    100%{bottom: 60vh; opacity: 0;}
+}
+@keyframes burbu3 {
+    0%{bottom: 0; opacity: 0;}
+    50%{opacity: .7;}
+    100%{bottom: 70vh; opacity: 0;}
+}

@@ -1,0 +1,17 @@
+.emi{
+    border: 10px solid rgb(255, 238, 0);
+    border-radius: 25px;
+    padding: 5px 25px;
+    top: 10%; left: 50%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 180px;
+    color: blue;
+    animation: textm 2s infinite;
+}
+
+@keyframes textm{
+    0%{transform: scale(0.5);}
+    50%{transform: scale(3);}
+    100%{transform: scale(0.5);}
+}

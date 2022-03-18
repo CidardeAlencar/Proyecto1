@@ -1,0 +1,88 @@
+.cuadrado{
+    background-image: url("https://besthqwallpapers.com/Uploads/16-1-2020/119156/thumb2-gray-stone-texture-macro-gray-rocks-gray-grunge-background-gray-stones.jpg");
+    width: 300px;
+    height: 600px;
+    border: 10px solid #000;
+    position: relative;
+    left: 1000px;
+    top: 800px;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    animation: movcal 2s infinite ;
+}
+
+@keyframes movcal{
+    0%{transform: scale(1);}
+    50%{transform: scale(2.2);}
+    100%{transform: scale(1);}
+}
+
+/*oojos*/
+.ojitos{
+    position: absolute;
+    left: 60px;
+    top: 80px;
+    width:250px;
+    z-index: 20px;
+}
+
+.ojotes{
+    background: rgba(59, 143, 212, 0.856);
+    position: relative;
+    border: 10px solid rgb(214, 206, 206);
+    width:70px;
+    height: 70px;
+    margin-right: 10;
+    display: inline-block;
+    border-radius: 50%;
+}
+.naza{
+
+width: 40px;
+height:30px;
+margin: 30px auto;
+border-bottom: 240px solid rgb(102, 100, 100);
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-radius: 10%;
+
+}
+.ceja{
+    position: relative;
+    left: 50px;
+    top: -310px;
+    z-index: 50px;
+    background: rgba(111, 112, 114, 0.856);
+    border: 10px solid rgb(75, 71, 71);
+    width:180px;
+    height: 40px;
+
+}
+.puerta{
+    width: 150px;
+    height: 220px;
+    background-color: rgba(211, 60, 6, 0.863);
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    border: 5px solid black;
+    z-index: 10;
+    border-bottom: 5px solid transparent;
+    border-radius: 43.5%;
+}
+.chapa{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    width:250px;
+    z-index: 20px;
+    background: rgba(133, 42, 6, 0.856);
+    position: relative;
+    border: 5px solid rgb(15, 13, 13);
+    width:20px;
+    height: 20px;
+    margin-right: 10;
+    display: inline-block;
+    border-radius: 50%;
+}

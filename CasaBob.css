@@ -1,0 +1,210 @@
+.casa{
+    width: 800px;
+    height: 1300px; /*alto de ovalo*/
+    left: 200px;
+    top: 1500px;
+    border-radius:45%;
+    position: absolute;
+    background-image: url("https://i18.servimg.com/u/f18/20/41/24/25/pina10.png");
+    background-size: 162%;
+    border:5px solid black;
+}
+.puerta{
+    width: 300px;
+    height: 600px; /*alto de ovalo*/
+    left: 800px;
+    top: 2200px;
+    border-radius:45%;
+    position: absolute;
+    background: #70b8f1;
+    background-size: 162%;
+    border:5px solid black;
+}
+.puerta2{
+    width: 240px;
+    height: 580px; /*alto de ovalo*/
+    left: 480px;
+    top: 2230px;
+    border-radius:45%;
+    position: absolute;
+    background: #70b8f1;
+    background-size: 162%;
+    border:5px solid black;
+}
+.ventana1{
+    width: 200px;
+    height: 200px; /*alto de ovalo*/
+    left: 290px;
+    top: 1842px;
+    border-radius:50%;
+    position: absolute;
+    background: #70b8f1;
+    border:5px solid black;
+}
+.ventana1_2{
+    width: 200px;
+     height: 200px; /*alto de ovalo*/
+     left: 290px;
+     top: 1835px;
+     border-radius:50%;
+     position: absolute;
+     background: #70b8f1;
+     border:5px solid black;
+ }
+ .ventana1_3{
+    width: 140px;
+     height: 140px; /*alto de ovalo*/
+     left: 320px;
+     top: 1865px;
+     border-radius:50%;
+     position: absolute;
+     background-image: url("https://i18.servimg.com/u/f18/20/41/24/25/nube10.jpg");
+     background-size: 300%;
+     border:5px solid black;
+ }
+ .ventana2{
+    width: 180px;
+    height: 200px; /*alto de ovalo*/
+    left: 780px;
+    top: 2245px;
+    border-radius:50%;
+    position: absolute;
+    background: #70b8f1;
+    border:5px solid black;
+}
+.ventana2_2{
+     width: 180px;
+     height: 200px; /*alto de ovalo*/
+     left: 780px;
+     top: 2240px;
+     border-radius:50%;
+     position: absolute;
+     background: #70b8f1;
+     border:5px solid black;
+ }
+ .ventana2_3{
+     width: 135px;
+     height: 140px; /*alto de ovalo*/
+     left: 801px;
+     top: 2270px;
+     border-radius:50%;
+     position: absolute;
+     background-image: url("https://i18.servimg.com/u/f18/20/41/24/25/nube10.jpg");
+     background-size: 300%;
+     border:5px solid black;
+ }
+.rectangulo{
+    width: 620px; 
+    height: 210px; 
+    left: 290px;
+    top: 2600px;
+    border-radius:0%;
+    position: absolute;
+    background-image: url("https://i18.servimg.com/u/f18/20/41/24/25/cmn110.png");
+    border:5px solid transparent;   
+}
+.hoja{
+    width: 175px;
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+    color: #4c8d15cf;
+    box-shadow:
+        450px 0 0 0 currentColor,
+        550px 0 0 0 currentColor;
+    top: -80px; left: -220px;
+}
+.hoja::before{
+    content: "";
+    position: absolute;
+    left: 600px;
+    top: -300px;
+    width: 360px;
+    height: 120px;
+    border-bottom: solid 120px currentColor;
+    border-radius: 0 0 100% 0;
+    transform: rotate(-35deg);
+    transform-origin: right 10px;
+}
+.hoja:after{
+    content: "";
+   position: absolute;
+   left: 200px;
+   top: 60px;
+   width: 400px;
+   height: 120px;
+   border-bottom: solid 110px currentColor;
+   border-radius: 0 0 0 100%;
+   transform: rotate(61deg);
+   transform-origin: right 20px;
+}
+.hoja2{
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    color: #828d15cf;
+    box-shadow:
+        400px 0 0 0 currentColor,
+        650px 0 0 0 currentColor;
+    top: -20px; left: -220px;
+}
+.hoja2::before{
+    content: "";
+    position: absolute;
+    left: 595px;
+    top: -360px;
+    width: 250px;
+    height: 220px;
+    border-bottom: solid 100px currentColor;
+    border-radius: 0 0 250% 0;
+    transform: rotate(-15deg);
+    transform-origin: right 10px;
+}
+.hoja2:after{
+    content: "";
+   position: absolute;
+   left: 335px;
+   top: -130px;
+   width: 255px;
+   height: 120px;
+   border-bottom: solid 100px currentColor;
+   border-radius: 0 0 0 100%;
+   transform: rotate(45deg);
+   transform-origin: right 20px;
+}
+.hoja3{
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    color: #95af4c;
+    box-shadow:
+        450px 365px 0 0 currentColor,
+        550px 365px 0 0 currentColor;
+    top: -350px; left: -180px;
+}
+.hoja3::before{
+    content: "";
+    position: absolute;
+    left: 250px;
+    top: -100px;
+    width: 430px;
+    height: 120px;
+    border-bottom: solid 80px currentColor;
+    border-radius: 0 0 250% 0;
+    transform: rotate(-65deg);
+    transform-origin: right 10px;
+}
+.hoja3:after{
+    content: "";
+   position: absolute;
+   left: 250px;
+   top: 280px;
+   width: 355px;
+   height: 120px;
+   border-bottom: solid 60px currentColor;
+   border-radius: 0 0 0 100%;
+   transform: rotate(65deg);
+   transform-origin: right 20px;
+}
